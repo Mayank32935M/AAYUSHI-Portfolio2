@@ -44,7 +44,7 @@ export default function AboutOverlay({ isOpen, onClose }) {
             <div className="w-full md:w-1/3 aspect-[3/4] relative rounded-md overflow-hidden bg-black/50 border border-white/10 shrink-0">
                <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                <img 
-                 src="/Profile.jpg" 
+                 src="./Profile.jpg" 
                  alt="Aayushi"
                  className="w-full h-full object-cover opacity-80 mix-blend-luminosity"
                />

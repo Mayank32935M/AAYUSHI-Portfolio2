@@ -13,15 +13,15 @@ import { usePhysics } from './hooks/usePhysics';
 
 /* ── 9 Paintings Data ── */
 const paintings = [
-  { id: 1, src: '/paintings/Ayanakouji.jpeg', title: 'Ayanakouji', year: '2025', medium: 'Original Artwork', size: 'lg' },
-  { id: 2, src: '/paintings/Eye.jpeg', title: 'Eye', year: '2025', medium: 'Original Artwork', size: 'md' },
-  { id: 3, src: '/paintings/Project File.jpeg', title: 'Project File', year: '2025', medium: 'Original Artwork', size: 'sm' },
-  { id: 4, src: '/paintings/gallery-1.jpeg', title: 'Gallery I', year: '2025', medium: 'Original Artwork', size: 'lg' },
-  { id: 5, src: '/paintings/gallery-2.jpeg', title: 'Gallery II', year: '2025', medium: 'Original Artwork', size: 'md' },
-  { id: 6, src: '/paintings/gallery-3.jpeg', title: 'Gallery III', year: '2025', medium: 'Original Artwork', size: 'lg' },
-  { id: 7, src: '/paintings/gallery-4.jpeg', title: 'Gallery IV', year: '2025', medium: 'Original Artwork', size: 'md' },
-  { id: 8, src: '/paintings/gallery-5.jpeg', title: 'Gallery V', year: '2025', medium: 'Original Artwork', size: 'sm' },
-  { id: 9, src: '/paintings/gallery-6.jpeg', title: 'Gallery VI', year: '2025', medium: 'Original Artwork', size: 'lg' },
+  { id: 1, src: './paintings/Ayanakouji.jpeg', title: 'Ayanakouji', year: '2025', medium: 'Original Artwork', size: 'lg' },
+  { id: 2, src: './paintings/Eye.jpeg', title: 'Eye', year: '2025', medium: 'Original Artwork', size: 'md' },
+  { id: 3, src: './paintings/Project File.jpeg', title: 'Project File', year: '2025', medium: 'Original Artwork', size: 'sm' },
+  { id: 4, src: './paintings/gallery-1.jpeg', title: 'Gallery I', year: '2025', medium: 'Original Artwork', size: 'lg' },
+  { id: 5, src: './paintings/gallery-2.jpeg', title: 'Gallery II', year: '2025', medium: 'Original Artwork', size: 'md' },
+  { id: 6, src: './paintings/gallery-3.jpeg', title: 'Gallery III', year: '2025', medium: 'Original Artwork', size: 'lg' },
+  { id: 7, src: './paintings/gallery-4.jpeg', title: 'Gallery IV', year: '2025', medium: 'Original Artwork', size: 'md' },
+  { id: 8, src: './paintings/gallery-5.jpeg', title: 'Gallery V', year: '2025', medium: 'Original Artwork', size: 'sm' },
+  { id: 9, src: './paintings/gallery-6.jpeg', title: 'Gallery VI', year: '2025', medium: 'Original Artwork', size: 'lg' },
 ];
 
 export default function App() {
